@@ -10,6 +10,10 @@ git clone https://github.com/user576g/Converter.git
 sudo gcc ./Converter/convert.c -o /bin/convert
 
 
+После установки можно удалить исходные файлы:
+
+rm -r Converter
+
 
 Как перейти в bash по пути DOS пример:
 
@@ -43,3 +47,7 @@ cd /mnt/d/PROJECTS/WIN_API/Dll
 
 Должно будет переключено на указанную директорию.
 
+
+Если вам программа не понравилась вы можете её удалить:
+
+sudo rm /bin/convert
