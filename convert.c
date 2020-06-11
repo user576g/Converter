@@ -7,7 +7,7 @@ int main(int n, char *args[]) {
 		printf("argument list is empty.\n");
 	} else {
 		char *inp = args[1];
-		int l = strlen(inp);
+		// removes spaces before path
 		while (*inp == ' ') {
 			++inp;
 		}
