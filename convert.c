@@ -23,5 +23,6 @@ int main(int n, char *args[]) {
 			} 
 		}
 		printf("\nConverted path is:\n%s\n", buff);
+		printf("The command to switch to this directory:\ncd %s\n\n", buff);
 	}
 }
