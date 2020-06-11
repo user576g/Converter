@@ -6,10 +6,13 @@ int main(int n, char *args[]) {
 	if (n < 2) {
 		printf("argument list is empty.\n");
 	} else {
-		printf("\nYour input is: %s", args[1]);
-
 		char *inp = args[1];
 		int l = strlen(inp);
+		while (*inp == ' ') {
+			++inp;
+		}
+		printf("\nYour input is: %s", inp);
+
 		char buff[1000] = "/mnt/";
 		buff[5] = tolower(inp[0]);
 		buff[6] = '\0';
