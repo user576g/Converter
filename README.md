@@ -6,6 +6,6 @@ Converts DOS-paths to Linux paths in bash for windows.
 
 git clone https://github.com/user576g/Converter.git
 
-gcc ./Converter/convert.c -o /bin/converter
+sudo gcc ./Converter/convert.c -o /bin/converter
 
 
